@@ -265,7 +265,7 @@ class GeminiChatbot:
         if genai:
             try:
                 # Configure Gemini API
-                GEMINI_API_KEY = "AIzaSyAExH0-MudWyMJUFAoi8OxYOGym9Bmc-Ps"
+                GEMINI_API_KEY = "Your_api_key"
                 genai.configure(api_key=GEMINI_API_KEY)
                 self.model = genai.GenerativeModel("gemini-1.5-flash")
                 self.is_configured = True
